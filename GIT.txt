@@ -1,0 +1,28 @@
+git branch branch1
+git branch (List branch)
+
+git checkout branch1
+
+git add .
+
+git commit -m "Branch1 v1" .
+
+git status
+
+git checkout master (to switch to master)
+
+git merge branch1
+git clone copy entire repository
+git pull (copy only latest change)
+
+git log --all --decorate --online --graph
+
+git merge --merged
+
+
+echo "# devops1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:alokvk1234/devops1.git
+git push -u origin master
